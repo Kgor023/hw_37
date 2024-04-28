@@ -1,0 +1,20 @@
+.footer {
+  max-width: 1920px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+.footer img {
+  display: inline-block;
+  text-align: center;
+}
+.footer p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+}

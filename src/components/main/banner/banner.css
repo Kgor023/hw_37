@@ -1,0 +1,88 @@
+.banner {
+  background-image: url("src/assets/img/background_img.png");
+  background-size: cover;
+  padding: 100px 0px;
+  background-color:  rgb(51, 51, 51);;
+}
+.banner_container {
+  display: flex;
+  flex-direction: row;
+  gap: 780px;
+}
+.banner_text {
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.banner_text img {
+  height: 50px;
+  width: 140px;
+}
+.banner_text h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: white;
+}
+.banner_hr {
+  width: 70px;
+  border-color: white;
+}
+.banner_text p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+}
+.banner_text button {
+  width: 135px;
+  height: 42px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+.banner_form {
+  width: 370px;
+  height: 370px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.banner_form h3 {
+  padding: 25px 0px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1px;
+  color: rgb(51, 51, 51);
+  margin-bottom: 40px;
+}
+.banner_form span {
+  color: red;
+}
+.banner_form input {
+  display: inline-block;
+  width: 250px;
+  height: 55px;
+  margin: 0 auto;
+  border-color: rgb(189, 189, 189);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.banner_form button{
+    border: 1px solid rgb(236, 121, 121);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top: 63px;
+    height: 58px;
+    color: white;
+    background-color: rgb(236, 121, 121);
+    font-size: 15px;
+    font-weight: 600;
+}
